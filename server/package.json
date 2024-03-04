@@ -6,8 +6,8 @@
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/app.ts",
-    "dev": "concurrently \"cd ../client && npm start\" \"nodemon src/app.ts\""
-  },
+    "dev": "nodemon src/app.ts"
+},
   "author": "",
   "license": "ISC",
   "dependencies": {

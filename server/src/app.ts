@@ -9,8 +9,6 @@ import { getWeekIDByDate } from "./dateUtils";
 import { IWeekModel } from "./models/WeekModel";
 import { resetRSVPInteractionForAllContacts, resetRatingInteractionForAllContacts } from "./services/contactServices/ContactService";
 
-
-
 const cron = require('node-cron');
 dotenv.config();
 const app = express();
