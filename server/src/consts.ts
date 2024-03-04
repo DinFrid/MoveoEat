@@ -1,0 +1,2 @@
+export const RATING_EXPIRATION_TIME_HOURS = 9;
+export const RSVP_EXPIRATION_TIME_HOURS = 3.5;
